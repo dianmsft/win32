@@ -554,6 +554,11 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <td>0x80070057</td>
 <td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event;  While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect. <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br/></td>
 </tr>
+<tr class="even">
+<td><strong>E_FILENOTFOUND</strong></td>
+<td>0x80070002</td>
+<td>Unable to find file or path. COM typelib validation requires that the path for the help directory actually exist within your MSIX package. <br/></td>
+</tr>
 </tbody>
 </table>
 
